@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: Republic of Korea
+  locale: ko-KR
   baseUrl: 13doyeon.github.io
   ignorePatterns:
     - private
