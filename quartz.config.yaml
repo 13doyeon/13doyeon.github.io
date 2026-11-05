@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: PROJECTS
+  pageTitleSuffix: "Doyeon Kim"
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: Republic of Korea
   baseUrl: 13doyeon.github.io
   ignorePatterns:
     - private
