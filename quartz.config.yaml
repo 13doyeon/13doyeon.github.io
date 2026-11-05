@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: 13doyeon.github.io
+  baseUrl: 13doyeon.github.io/test
   ignorePatterns:
     - private
     - templates
