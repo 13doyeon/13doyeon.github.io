@@ -1,3 +1,12 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+/* Excalidraw 그림 제목 숨기기 */
+.excalidraw-container .excalidraw-title {
+  display: none !important;
+}
+
+/* Excalidraw 원본 링크 숨기기 */
+.excalidraw-container .excalidraw-source-link {
+  display: none !important;
+}
