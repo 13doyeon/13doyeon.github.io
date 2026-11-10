@@ -1,12 +1,24 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-/* Excalidraw 그림 제목 숨기기 */
-.excalidraw-container .excalidraw-title {
+
+@use "./variables.scss" as *;
+
+// 1. Excalidraw 그림 위 날짜 제목 숨기기
+blockquote.transclude:has(
+  a.transclude-src[href*=".excalidraw"]
+) h1 {
   display: none !important;
 }
 
-/* Excalidraw 원본 링크 숨기기 */
-.excalidraw-container .excalidraw-source-link {
+// 2. Excalidraw 원본 링크 숨기기
+a.internal-link.transclude-src[href*=".excalidraw"] {
+  display: none !important;
+}
+
+/* 탐색기의 excalidraw 폴더 숨기기 */
+.explorer li:has(
+  > .folder-container a[href*="/excalidraw"]
+) {
   display: none !important;
 }
